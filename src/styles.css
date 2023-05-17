@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar {
+  color: white!important;
+  background-color: #20c997!important;
+}
+.navbar .active {
+  background-color: #ff8c00;
+  border-radius: 5px;
+}
+.navbar a {
+  color: white!important;
+
+}
+.navbar-nav .nav-item .nav-link {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar-nav .nav-item:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-img-top {
+    /* height: 400px; */
+}
+.card-title {
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+}
+.card-text {
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tbl {
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid white;
+  text-align: center;
+}
+.tbl th{
+  text-align: center;
+  font-size: larger;
+}
+.tbl thead {
+  background-color: #30A5FF;
+  color: white;
+}
+.tbl tr{
+  line-height: 46px;
+}
+.tbl tbody tr:nth-of-type(even) {
+  background-color: #ffffff7a
+}
+
+.tbl tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.tbl tbody tr td img{
+  width:  200px!important;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+  footer {
+    font-size: 17px;
+    color: white!important;
+    background-color: #20c997!important;
+  }
+
